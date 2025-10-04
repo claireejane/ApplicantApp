@@ -8,22 +8,22 @@ The program models applicants, stores them in groups, and allows processing and 
 ## ✨ Features
 - **Applicant class**
   - Represents an individual applicant
-  - Stores fields such as name, ID, program, GPA, etc. (based on assignment requirements)
+  - Stores fields such as name, typing speed
   - Provides getter/setter methods
   - Includes a `toString()` method for clean output
 - **Group class**
   - Represents a collection of applicants
   - Supports adding applicants
   - Can print all applicants in the group
-  - May provide group statistics (e.g., average GPA, applicant count)
+  - Can sort applicants
+  - Can remove lowest applicant
 - **ApplicantApp driver**
   - Creates and populates groups of applicants
   - Demonstrates adding applicants to groups
   - Iterates through groups with loops
-  - Prints applicant details and group info
+  - Prints applicant details and group info according to assignment requirements
 
 ---
-
 
 ## 🚀 How to Run
 1. Compile all classes:
